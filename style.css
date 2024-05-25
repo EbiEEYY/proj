@@ -446,7 +446,6 @@ body {
   margin: 0 0 24px 0;
 }
 .advertisements-link {
-  margin: 24px 0 0 auto;
   color: #266294;
   font-size: 20px;
   font-weight: 400;
@@ -510,14 +509,13 @@ body {
   }
   .advertisements-basket {
     display: flex;
+    justify-content: space-between;
   }
   .advertisements-title {
-    margin: 48px auto 24px 8px;
     padding: 0;
     text-align: start;
   }
   .advertisements-link {
-    margin: 36px 32px 24px auto;
   }
   .advertisements-list {
     display: flex;
