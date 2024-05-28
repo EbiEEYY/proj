@@ -1,5 +1,5 @@
 const data = [
-    { id: "1", src: "./img/house1.webp", title: "Будинки" },
+    { id: "1", src: "./img/houses1.webp", title: "Будинки" },
     {
       id: "2",
       src: "./img/studios2.webp",
@@ -7,7 +7,7 @@ const data = [
     },
     {
       id: "3",
-      src: "./img/quartieri3.webp",
+      src: "./img/quartires3.webp",
       title: "Квартири",
     },
     {
@@ -33,6 +33,7 @@ const data = [
     const dataCard = data.find((elem) => {
       return elem.id === idx;
     });
+    console.log(dataCard);
     modalInerEl.innerHTML = `
   <div class="bak-modal_1">
             <img class="bak-modal_1-img" src="${dataCard.src}" alt="">
