@@ -257,7 +257,7 @@ body {
   overflow: hidden;
   position: relative;
   width: 633px;
-height: 629px;
+  height: 629px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -493,7 +493,13 @@ height: 629px;
     font-weight: 700;
     line-height: 1.2;
   }
+  .bak-modal_1 {
+    width: 633px;
+    height: 629px;
+  }
 }
+
+/* gfdgdfgfd */
 
 .advertisements {
   font-family: "Play", sans-serif;
